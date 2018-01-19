@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/proxima-nova_8_0.eot');
+  src: url('../fonts/proxima-nova_8_0.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/proxima-nova_8_0.woff2') format('woff2'), url('../assets/fonts/proxima-nova_8_0.woff') format('woff'), url('../assets/fonts/proxima-nova_8_0.ttf') format('truetype');
+}
+
+html,
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html {
+  background-color: #f5f7fa;
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  min-height: 100%;
+  font-family: "ProximaNova", Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.7px;
+  font-style: normal;
+}
+
+h1,
+.h1 {
+  font-size: 50px;
+  line-height: 10px;
+  font-weight: 200;
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 200;
+}
+
+h3,
+.h3 {
+  font-size: 21px;
+  line-height: 10px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+h4,
+.h4 {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+h5,
+.h5 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.links {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px;
+  min-width: 300px;
+}
+
+a {
+  color: black;
+}
